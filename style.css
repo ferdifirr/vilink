@@ -1,0 +1,140 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background: #006600;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: url("https://via.placeholder.com/1920x600") no-repeat center
+    center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #006600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero .btn:hover {
+  background: #004d00;
+}
+
+/* Content Section */
+.content h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33.333% - 20px);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin: 15px 0 10px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.card .btn {
+  display: inline-block;
+  padding: 8px 15px;
+  background: #006600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.card .btn:hover {
+  background: #004d00;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
